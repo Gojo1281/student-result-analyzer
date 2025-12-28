@@ -22,7 +22,7 @@ else:
     RESULT = "FAIL"
     
 
-Subjects = ["Maths", "Science", "English"]
+Subjects = {MATHS, SCIENCE, ENGLISH}
 maximum_marks = max(Subjects)
 minimum_marks = min(Subjects)
 print("-----Report Card-----")
@@ -34,6 +34,6 @@ print("Total Marks:", TOTAL)
 print("Percentage:", PERCENTAGE)
 print("Grade:", GRADE)
 print("Result:", RESULT)
-print("Maximum Marks Subject:", maximum_marks)
-print("Minimum Marks Subject:", minimum_marks)
+print("Maximum Marks:", maximum_marks)
+print("Minimum Marks:", minimum_marks)
     
